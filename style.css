@@ -109,6 +109,9 @@ color: white
   background: white;
   font-weight: 600;
   margin-bottom: 20px;
+  color:white;
+  background-color: #30B868;
+
 }
 
 /* green heading */
@@ -121,3 +124,52 @@ color: white
   margin-top: 15px;
   line-height: 1.6;
 }
+body {
+  margin: 0;
+  overflow-x: hidden;
+  display: center;
+}
+
+.section2 {
+  text-align: center;      
+  padding: 60px 20px;      
+}
+
+.section2{
+  font-display: flex;
+}
+.cards {
+  display: flex;
+  gap: 24px;             
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.card {
+  width: 250px;
+  text-align: center;
+}
+.solution {
+  display: flex;           
+  align-items: center;     
+  gap: 40px;               
+  padding: 60px 20px;
+}
+
+/* image size */
+.solution img {
+  width: 320px;
+}
+
+/* text area */
+.solution .text h5 {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.solution .text h2 {
+  margin-bottom: 15px;
+  font-size: 32px;
+  line-height: 1.2;
+gap:10px
+justify-content: space-between;
