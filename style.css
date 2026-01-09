@@ -1,3 +1,22 @@
-body {
-  background-color: red;
+ul{
+  list-style-type: none;
+  display: flex;
+  
+width: 1600px;
+height: 92px
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding : 10px;
+
+
+}
+
+
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
 }
